@@ -1,0 +1,48 @@
+{
+    "accuracy_table": {
+        "baseline": {
+            "accuracy": 0.59,
+            "correct": 59,
+            "total": 100,
+            "avg_latency_sec": 104.624
+        },
+        "mnsr": {
+            "accuracy": 0.61,
+            "correct": 61,
+            "total": 100,
+            "avg_latency_sec": 273.065
+        },
+        "reflexion": {
+            "accuracy": 0.59,
+            "correct": 59,
+            "total": 100,
+            "avg_latency_sec": 58.352
+        },
+        "self_consistency": {
+            "accuracy": 0.59,
+            "correct": 59,
+            "total": 100,
+            "avg_latency_sec": 487.507
+        }
+    },
+    "mcnemar_vs_mnsr": {
+        "baseline": {
+            "chi_square": 0.0714,
+            "p_value": 0.789268,
+            "mnsr_only_correct": 8,
+            "other_only_correct": 6
+        },
+        "reflexion": {
+            "chi_square": 0.0625,
+            "p_value": 0.802587,
+            "mnsr_only_correct": 9,
+            "other_only_correct": 7
+        },
+        "self_consistency": {
+            "chi_square": 0.0357,
+            "p_value": 0.850107,
+            "mnsr_only_correct": 15,
+            "other_only_correct": 13
+        }
+    }
+}
